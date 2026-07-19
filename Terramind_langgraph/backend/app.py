@@ -401,8 +401,11 @@ async def login(body: AuthRequest):
 
 # ── Core endpoints ────────────────────────────────────────────────────────────
 
-@app.get("/")
-async def root():
+_STATIC_DIR_ROOT = Path(os.getenv("STATIC_DIR", str(Path(__file__).parent.parent / "static")))
+
+
+@app.get("/api")
+async def api_info():
     return {
         "name": "TerraMind Land Analysis API",
         "version": "1.0.0",
@@ -419,6 +422,14 @@ async def root():
             "health": "/api/health",
         },
     }
+
+
+# "/" serves the built frontend when it's present (single-container deploy);
+# falls back to the API info JSON when running the backend standalone (dev).
+if not _STATIC_DIR_ROOT.exists():
+    @app.get("/")
+    async def root():
+        return await api_info()
 
 
 @app.post("/api/query", response_model=QueryResponse)
