@@ -1,0 +1,131 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            },
+            "properties": {
+                "name": "Coronation_Bridge",
+                "earthquake_intensity": 0.3130816019589045,
+                "earthquake_category": "Very High Risk",
+                "heat_stress": "Low",
+                "humidity_discomfort": "Very High",
+                "wind_risk": "Low",
+                "flood_risk": "Very High",
+                "flood_state": "West Bengal",
+                "flood_district": "Darjiling"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.29938888888888,
+                    26.866147222222224
+                ]
+            },
+            "properties": {
+                "name": "Giddapahar",
+                "earthquake_intensity": 0.3391013999999981,
+                "earthquake_category": "Very High Risk",
+                "heat_stress": "Low",
+                "humidity_discomfort": "Very High",
+                "wind_risk": "Low",
+                "flood_risk": "Very High",
+                "flood_state": "West Bengal",
+                "flood_district": "Darjiling"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            },
+            "properties": {
+                "name": "Makaibari_Tea_Estate",
+                "earthquake_intensity": 0.3130816019589045,
+                "earthquake_category": "Very High Risk",
+                "heat_stress": "Low",
+                "humidity_discomfort": "Very High",
+                "wind_risk": "Low",
+                "flood_risk": "Very High",
+                "flood_state": "West Bengal",
+                "flood_district": "Darjiling"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            },
+            "properties": {
+                "name": "Mirik",
+                "earthquake_intensity": 0.3130816019589045,
+                "earthquake_category": "Very High Risk",
+                "heat_stress": "Low",
+                "humidity_discomfort": "Very High",
+                "wind_risk": "Low",
+                "flood_risk": "Very High",
+                "flood_state": "West Bengal",
+                "flood_district": "Darjiling"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            },
+            "properties": {
+                "name": "NJP_Railway_Station",
+                "earthquake_intensity": 0.3130816019589045,
+                "earthquake_category": "Very High Risk",
+                "heat_stress": "Low",
+                "humidity_discomfort": "Very High",
+                "wind_risk": "Low",
+                "flood_risk": "Very High",
+                "flood_state": "West Bengal",
+                "flood_district": "Darjiling"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            },
+            "properties": {
+                "name": "Teesta",
+                "earthquake_intensity": 0.3130816019589045,
+                "earthquake_category": "Very High Risk",
+                "heat_stress": "Low",
+                "humidity_discomfort": "Very High",
+                "wind_risk": "Low",
+                "flood_risk": "Very High",
+                "flood_state": "West Bengal",
+                "flood_district": "Darjiling"
+            }
+        }
+    ]
+}

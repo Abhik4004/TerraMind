@@ -1,0 +1,16 @@
+**/node_modules
+**/.venv
+**/__pycache__
+**/*.pyc
+Terramind_langgraph/cache
+Terramind_langgraph/src/vector
+Terramind_langgraph/.env
+Terramind_langgraph/.env.production
+frontend/dist
+.git
+*.pdf
+*.pptx
+*.docx
+diagrams
+research
+media

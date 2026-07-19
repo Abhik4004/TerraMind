@@ -1,0 +1,150 @@
+{
+    "type": "FeatureCollection",
+    "name": "Aham_data",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_name": "Coronation_Bridge",
+                "location": "88\u00c2\u00b0 24' 37.00'' N, 26\u00c2\u00b0 43' 57.27'' E",
+                "land type": "Builtup",
+                "geomorphology": "Alluvial",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Medium texture",
+                "soil depth": "Deep",
+                "latitude": 26.732575,
+                "longitude": 88.41027777777778
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_name": "Giddapahar",
+                "location": "88\u00c2\u00b0 17' 57.80'' N, 26\u00c2\u00b0 51' 58.13'' E",
+                "land type": "Agriculture",
+                "geomorphology": "Hills and Valleys",
+                "land degradation": "Nil",
+                "soil productivity": "Low Productive",
+                "soil erosion": "Moderate",
+                "soil texture": "Rocky and non soil",
+                "soil depth": "Deep",
+                "latitude": 26.866147222222224,
+                "longitude": 88.29938888888888
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.29938888888888,
+                    26.866147222222224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_name": "Makaibari_Tea_Estate",
+                "location": "88\u00c2\u00b0 24' 37.00'' N, 26\u00c2\u00b0 43' 57.27'' E",
+                "land type": "Builtup",
+                "geomorphology": "Alluvial",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Medium texture",
+                "soil depth": "Deep",
+                "latitude": 26.732575,
+                "longitude": 88.41027777777778
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_name": "Mirik",
+                "location": "88\u00c2\u00b0 24' 37.00'' N, 26\u00c2\u00b0 43' 57.27'' E",
+                "land type": "Builtup",
+                "geomorphology": "Alluvial",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Medium texture",
+                "soil depth": "Deep",
+                "latitude": 26.732575,
+                "longitude": 88.41027777777778
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_name": "NJP_Railway_Station",
+                "location": "88\u00c2\u00b0 24' 37.00'' N, 26\u00c2\u00b0 43' 57.27'' E",
+                "land type": "Builtup",
+                "geomorphology": "Alluvial",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Medium texture",
+                "soil depth": "Deep",
+                "latitude": 26.732575,
+                "longitude": 88.41027777777778
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_name": "Teesta",
+                "location": "88\u00c2\u00b0 24' 37.00'' N, 26\u00c2\u00b0 43' 57.27'' E",
+                "land type": "Builtup",
+                "geomorphology": "Alluvial",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Medium texture",
+                "soil depth": "Deep",
+                "latitude": 26.732575,
+                "longitude": 88.41027777777778
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41027777777778,
+                    26.732575
+                ]
+            }
+        }
+    ]
+}

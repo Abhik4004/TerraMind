@@ -1,0 +1,631 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.2677,
+                    24.09656111111111
+                ]
+            },
+            "properties": {
+                "place_name": "Berhampore",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Moderate flood risk (+0)"
+                    ],
+                    "Housing": "Less Suitable",
+                    "Housing_reasons": [
+                        "Moderate flood risk (+1)",
+                        "Moderate seismic risk (+0)",
+                        "Overcrowded population (-1)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Suitable",
+                    "Institutional_reasons": [
+                        "Moderate flood risk (+0)",
+                        "Acceptable seismic risk (+1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 11617.2685546875
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.34580277777778,
+                    22.571455555555556
+                ]
+            },
+            "properties": {
+                "place_name": "Bhatkawa Tea Estate",
+                "suitability": {
+                    "Agriculture": "Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "Moderate seismic risk (+0)",
+                        "Overcrowded population (-1)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Conditionally Suitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "Acceptable seismic risk (+1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 20765.142578125
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.74414166666666,
+                    26.670686111111113
+                ]
+            },
+            "properties": {
+                "place_name": "Bhutanghat",
+                "suitability": {
+                    "Agriculture": "Less Suitable",
+                    "Agriculture_reasons": [
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "High flood risk (-2)",
+                        "Very high seismic risk (-1)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-2)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "High seismic risk (-2)",
+                        "High flood risk (-2)",
+                        "Too low population for high-rise (-1)"
+                    ],
+                    "Institutional": "Unsuitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-1)"
+                    ]
+                },
+                "population_density": 349.4880065917969
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.14887222222222,
+                    26.675797222222222
+                ]
+            },
+            "properties": {
+                "place_name": "Dalgaon Tea Estate_Alipurduar",
+                "suitability": {
+                    "Agriculture": "Less Suitable",
+                    "Agriculture_reasons": [
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "High flood risk (-2)",
+                        "Very high seismic risk (-1)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-2)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "High seismic risk (-2)",
+                        "High flood risk (-2)",
+                        "Too low population for high-rise (-1)"
+                    ],
+                    "Institutional": "Unsuitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-1)"
+                    ]
+                },
+                "population_density": 639.1470336914062
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.519475,
+                    21.625597222222222
+                ]
+            },
+            "properties": {
+                "place_name": "Digha",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Moderate flood risk (+0)"
+                    ],
+                    "Housing": "Less Suitable",
+                    "Housing_reasons": [
+                        "Moderate flood risk (+1)",
+                        "Moderate seismic risk (+0)",
+                        "Overcrowded population (-1)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Suitable",
+                    "Institutional_reasons": [
+                        "Moderate flood risk (+0)",
+                        "Acceptable seismic risk (+1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 12793.720703125
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.7322138888889,
+                    22.664369444444443
+                ]
+            },
+            "properties": {
+                "place_name": "Ghatal",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Moderate flood risk (+0)"
+                    ],
+                    "Housing": "Conditionally Suitable",
+                    "Housing_reasons": [
+                        "Moderate flood risk (+1)",
+                        "Moderate seismic risk (+0)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Conditionally Suitable",
+                    "Institutional_reasons": [
+                        "Moderate flood risk (+0)",
+                        "Acceptable seismic risk (+1)"
+                    ]
+                },
+                "population_density": 3800.13134765625
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.73525277777777,
+                    26.516925
+                ]
+            },
+            "properties": {
+                "place_name": "Jalpaiguri town",
+                "suitability": {
+                    "Agriculture": "Unsuitable",
+                    "Agriculture_reasons": [
+                        "High erosion (-1)",
+                        "High flood risk (-2)",
+                        "Very high seismic risk (-1)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-2)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "High seismic risk (-2)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Unsuitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 4899.38427734375
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.91309722222223,
+                    24.781152777777777
+                ]
+            },
+            "properties": {
+                "place_name": "Kaliachak",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Low flood risk (+2)"
+                    ],
+                    "Housing": "Conditionally Suitable",
+                    "Housing_reasons": [
+                        "Low flood risk (+3)",
+                        "Moderate seismic risk (+0)",
+                        "Overcrowded population (-1)"
+                    ],
+                    "High-rise": "Conditionally Suitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "Low flood risk (+2)"
+                    ],
+                    "Institutional": "Suitable",
+                    "Institutional_reasons": [
+                        "Low flood risk (+2)",
+                        "Acceptable seismic risk (+1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 8736.5625
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.04034166666666,
+                    23.953163888888888
+                ]
+            },
+            "properties": {
+                "place_name": "Kandi",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Moderate flood risk (+0)"
+                    ],
+                    "Housing": "Conditionally Suitable",
+                    "Housing_reasons": [
+                        "Moderate flood risk (+1)",
+                        "Moderate seismic risk (+0)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Conditionally Suitable",
+                    "Institutional_reasons": [
+                        "Moderate flood risk (+0)",
+                        "Acceptable seismic risk (+1)"
+                    ]
+                },
+                "population_density": 3593.927001953125
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.126625,
+                    23.63851111111111
+                ]
+            },
+            "properties": {
+                "place_name": "Katwa",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Moderate flood risk (+0)"
+                    ],
+                    "Housing": "Conditionally Suitable",
+                    "Housing_reasons": [
+                        "Moderate flood risk (+1)",
+                        "Moderate seismic risk (+0)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Conditionally Suitable",
+                    "Institutional_reasons": [
+                        "Moderate flood risk (+0)",
+                        "Acceptable seismic risk (+1)"
+                    ]
+                },
+                "population_density": 3344.239501953125
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.49292777777778,
+                    23.393977777777778
+                ]
+            },
+            "properties": {
+                "place_name": "Krishnanagar",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Moderate flood risk (+0)"
+                    ],
+                    "Housing": "Less Suitable",
+                    "Housing_reasons": [
+                        "Moderate flood risk (+1)",
+                        "Moderate seismic risk (+0)",
+                        "Overcrowded population (-1)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Suitable",
+                    "Institutional_reasons": [
+                        "Moderate flood risk (+0)",
+                        "Acceptable seismic risk (+1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 16602.6796875
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.82228055555555,
+                    26.565286111111114
+                ]
+            },
+            "properties": {
+                "place_name": "Mainaguri",
+                "suitability": {
+                    "Agriculture": "Moderately Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "High flood risk (-2)",
+                        "Very high seismic risk (-1)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-2)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "High seismic risk (-2)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Unsuitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 4086.6826171875
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.73805,
+                    26.867166666666666
+                ]
+            },
+            "properties": {
+                "place_name": "Malbazar",
+                "suitability": {
+                    "Agriculture": "Less Suitable",
+                    "Agriculture_reasons": [
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "High flood risk (-2)",
+                        "Very high seismic risk (-1)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-2)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "High seismic risk (-2)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Unsuitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-1)"
+                    ]
+                },
+                "population_density": 3561.38525390625
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.20650555555555,
+                    26.34088611111111
+                ]
+            },
+            "properties": {
+                "place_name": "Mathabhanga",
+                "suitability": {
+                    "Agriculture": "Moderately Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "High flood risk (-2)",
+                        "Very high seismic risk (-1)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-2)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "High seismic risk (-2)",
+                        "High flood risk (-2)",
+                        "Too low population for high-rise (-1)"
+                    ],
+                    "Institutional": "Unsuitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-1)"
+                    ]
+                },
+                "population_density": 2211.234619140625
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.66717222222222,
+                    26.31293611111111
+                ]
+            },
+            "properties": {
+                "place_name": "Tufanganj",
+                "suitability": {
+                    "Agriculture": "Moderately Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "High flood risk (-2)",
+                        "Very high seismic risk (-1)"
+                    ],
+                    "Housing": "Unsuitable",
+                    "Housing_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-2)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "High seismic risk (-2)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Unsuitable",
+                    "Institutional_reasons": [
+                        "High flood risk (-2)",
+                        "High seismic risk (-1)",
+                        "High population supports institutions (+2)"
+                    ]
+                },
+                "population_density": 4385.767578125
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.09381944444443,
+                    22.472041666666666
+                ]
+            },
+            "properties": {
+                "place_name": "Ulluberia",
+                "suitability": {
+                    "Agriculture": "Highly Suitable",
+                    "Agriculture_reasons": [
+                        "High soil productivity (+2)",
+                        "Deep soil (+1)",
+                        "Low erosion (+1)",
+                        "Moderate flood risk (+0)"
+                    ],
+                    "Housing": "Conditionally Suitable",
+                    "Housing_reasons": [
+                        "Moderate flood risk (+1)",
+                        "Moderate seismic risk (+0)"
+                    ],
+                    "High-rise": "Unsuitable",
+                    "High-rise_reasons": [
+                        "Moderate seismic risk (+1)",
+                        "High flood risk (-2)"
+                    ],
+                    "Institutional": "Conditionally Suitable",
+                    "Institutional_reasons": [
+                        "Moderate flood risk (+0)",
+                        "Acceptable seismic risk (+1)"
+                    ]
+                },
+                "population_density": 3630.195556640625
+            }
+        }
+    ]
+}

@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "state": "West Bengal",
+    "last_updated": "2025-10-14",
+    "description": "District-level construction and geotechnical profiles for West Bengal",
+    "disclaimer": "District profiles are modeled/synthesized from regional soil maps. NOT site-specific recommendations - perform boreholes, lab tests (IS:2720), and local structural design checks before final design.",
+    "regulatory": {
+      "building_plan_portal": "Online Building Plan Approval System (OBPAS) - West Bengal",
+      "planning_act": "The West Bengal Town & Country (Planning & Development) Act, 1979",
+      "recommended_codes": ["IS 456", "IS 1893", "IS 6403", "IS 2720"]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.4694, 26.4925]
+      },
+      "properties": {
+        "district": "Alipurduar",
+        "typical_soil": "Alluvial - silty loam / sandy loam (Terai foothills)",
+        "typical_texture": "Medium-grained",
+        "bearing_capacity_kPa_range": "100-200",
+        "bearing_capacity_min": 100,
+        "bearing_capacity_max": 200,
+        "recommended_foundation": "Shallow spread footings for low-rise; piles where saturated strata or high load",
+        "recommended_depth_m": "1.5 - 3.0",
+        "depth_min": 1.5,
+        "depth_max": 3.0,
+        "drainage_requirement": "Surface runoff control; avoid perched water near slopes",
+        "seismic_zone": "IV",
+        "special_constraints": "Near-forest & riverine zones — local erosion & drainage controls required",
+        "notes": "Perform slope stability checks for hillside approaches; follow local land-use plan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.0737, 23.2324]
+      },
+      "properties": {
+        "district": "Bankura",
+        "typical_soil": "Lateritic red soils / residual soils",
+        "typical_texture": "Clayey-silty / gritty",
+        "bearing_capacity_kPa_range": "150-300",
+        "bearing_capacity_min": 150,
+        "bearing_capacity_max": 300,
+        "recommended_foundation": "Spread footings, raft for larger buildings; shallow piles only if weak residual pockets",
+        "recommended_depth_m": "1.0 - 2.0",
+        "depth_min": 1.0,
+        "depth_max": 2.0,
+        "drainage_requirement": "Surface drainage and erosion control (monsoon run-off)",
+        "seismic_zone": "III",
+        "special_constraints": "Lateritic crusts can be thin — verify depth to weathered rock",
+        "notes": "Use compaction & moisture conditioning; check expansive pockets."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.6197, 23.8403]
+      },
+      "properties": {
+        "district": "Birbhum",
+        "typical_soil": "Alluvial to residual (mix of loam and red soils)",
+        "typical_texture": "Medium-grained",
+        "bearing_capacity_kPa_range": "120-250",
+        "bearing_capacity_min": 120,
+        "bearing_capacity_max": 250,
+        "recommended_foundation": "Spread footings, raft for clustered buildings",
+        "recommended_depth_m": "1.2 - 2.5",
+        "depth_min": 1.2,
+        "depth_max": 2.5,
+        "drainage_requirement": "Manage surface runoff; protect foundations from seasonal saturation",
+        "seismic_zone": "III",
+        "special_constraints": "Local low-lying patches and depressions",
+        "notes": "Standard geotechnical investigation adequate for mid-rise designs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.4489, 26.3259]
+      },
+      "properties": {
+        "district": "Cooch Behar",
+        "typical_soil": "Alluvial (silty/clayey) — floodplain",
+        "typical_texture": "Fine-grained",
+        "bearing_capacity_kPa_range": "80-180",
+        "bearing_capacity_min": 80,
+        "bearing_capacity_max": 180,
+        "recommended_foundation": "Raft for heavier loads; piles where organic/fill layers present",
+        "recommended_depth_m": "2.0 - 4.0",
+        "depth_min": 2.0,
+        "depth_max": 4.0,
+        "drainage_requirement": "High — flood-proofing and raised plinths recommended",
+        "seismic_zone": "IV",
+        "special_constraints": "Flood & seasonal inundation; high water table",
+        "notes": "Design for scour, settlement monitoring for long-term works."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.6542, 25.2192]
+      },
+      "properties": {
+        "district": "Dakshin Dinajpur",
+        "typical_soil": "Alluvial (sandy-silt / clayey silt)",
+        "typical_texture": "Fine to medium",
+        "bearing_capacity_kPa_range": "100-220",
+        "bearing_capacity_min": 100,
+        "bearing_capacity_max": 220,
+        "recommended_foundation": "Spread footings; piles locally where compressible soil found",
+        "recommended_depth_m": "1.5 - 3.0",
+        "depth_min": 1.5,
+        "depth_max": 3.0,
+        "drainage_requirement": "Surface runoff control and lateral drainage",
+        "seismic_zone": "IV",
+        "special_constraints": "Agricultural reclaimed lands in places",
+        "notes": "Check for shallow compressible layers before design."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.2627, 26.7271]
+      },
+      "properties": {
+        "district": "Darjeeling",
+        "typical_soil": "Hill soils — loamy, colluvial deposits",
+        "typical_texture": "Medium-grained / stony in places",
+        "bearing_capacity_kPa_range": "120-350",
+        "bearing_capacity_min": 120,
+        "bearing_capacity_max": 350,
+        "recommended_foundation": "Spread footings on competent benches; piles/anchored foundations on steep slopes",
+        "recommended_depth_m": "1.5 - 3.5 (varies by slope)",
+        "depth_min": 1.5,
+        "depth_max": 3.5,
+        "drainage_requirement": "Critical — slope drainage, retaining walls and terraces",
+        "seismic_zone": "IV",
+        "special_constraints": "Landslide / slope stability risk; strict drainage & retaining design required",
+        "notes": "Require thorough slope stability and LID (landslide inventory) checks prior to construction."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.3832, 22.9089]
+      },
+      "properties": {
+        "district": "Hooghly",
+        "typical_soil": "Alluvial clayey / silty soils near river corridors",
+        "typical_texture": "Fine to medium",
+        "bearing_capacity_kPa_range": "90-200",
+        "bearing_capacity_min": 90,
+        "bearing_capacity_max": 200,
+        "recommended_foundation": "Raft or piles for large structures; spread for small buildings with ground improvement",
+        "recommended_depth_m": "2.0 - 4.0",
+        "depth_min": 2.0,
+        "depth_max": 4.0,
+        "drainage_requirement": "Subsurface drainage near riverbanks; flood-resilient plinths",
+        "seismic_zone": "III",
+        "special_constraints": "Riverbank erosion in stretches; saline pockets near estuaries",
+        "notes": "Coordinate with river-protection authorities for river-adjacent works."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.2636, 22.5958]
+      },
+      "properties": {
+        "district": "Howrah",
+        "typical_soil": "Alluvial estuarine and reclaimed areas (clayey / silty)",
+        "typical_texture": "Fine-grained",
+        "bearing_capacity_kPa_range": "70-160",
+        "bearing_capacity_min": 70,
+        "bearing_capacity_max": 160,
+        "recommended_foundation": "Pile foundations commonly recommended for medium-to-heavy loads",
+        "recommended_depth_m": "3.0 - 6.0 where reclaimed/fill present",
+        "depth_min": 3.0,
+        "depth_max": 6.0,
+        "drainage_requirement": "Subsurface drainage and dewatering for deep excavations",
+        "seismic_zone": "III",
+        "special_constraints": "High water table & reclaimed fill pockets",
+        "notes": "Corrosion-resistant design recommended in saline proximities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.7279, 26.5237]
+      },
+      "properties": {
+        "district": "Jalpaiguri",
+        "typical_soil": "Alluvial plain with silty-sandy soils; river terraces",
+        "typical_texture": "Medium-grained",
+        "bearing_capacity_kPa_range": "110-230",
+        "bearing_capacity_min": 110,
+        "bearing_capacity_max": 230,
+        "recommended_foundation": "Spread footings; piles in river-adjacent soft areas",
+        "recommended_depth_m": "1.5 - 3.5",
+        "depth_min": 1.5,
+        "depth_max": 3.5,
+        "drainage_requirement": "Manage monsoon runoff; prevent riverbank scour",
+        "seismic_zone": "IV",
+        "special_constraints": "Flood-prone localities; check for organic layers in old wetlands",
+        "notes": "Combine geotech inputs with river hydrology for waterfront projects."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.4742, 27.0669]
+      },
+      "properties": {
+        "district": "Kalimpong",
+        "typical_soil": "Hill / colluvial soils with rock outcrops",
+        "typical_texture": "Stony / coarse in parts",
+        "bearing_capacity_kPa_range": "150-400 (on rock/competent benches)",
+        "bearing_capacity_min": 150,
+        "bearing_capacity_max": 400,
+        "recommended_foundation": "Shallow pads on rock benches; piles or anchors on escarpments",
+        "recommended_depth_m": "variable (bench-dependent)",
+        "depth_min": 1.5,
+        "depth_max": 4.0,
+        "drainage_requirement": "Extensive slope drainage and retaining structures",
+        "seismic_zone": "IV",
+        "special_constraints": "Landslide-susceptible; stringent slope engineering required",
+        "notes": "Local rock/soil mapping and bench-by-bench design necessary."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.3639, 22.5726]
+      },
+      "properties": {
+        "district": "Kolkata",
+        "typical_soil": "Clayey (soft to medium stiff estuarine clays) — high water table",
+        "typical_texture": "Fine-grained",
+        "bearing_capacity_kPa_range": "30-120 (highly variable; engineered piles common)",
+        "bearing_capacity_min": 30,
+        "bearing_capacity_max": 120,
+        "recommended_foundation": "Raft or pile foundations (deep piles for tall structures)",
+        "recommended_depth_m": "2.5 - 6.0 (piles extend to dense strata)",
+        "depth_min": 2.5,
+        "depth_max": 6.0,
+        "drainage_requirement": "Subsurface drainage and waterproofing mandatory",
+        "seismic_zone": "III",
+        "special_constraints": "High settlement risk, corrosion and seasonal variation; municipal rules strict",
+        "notes": "Refer to local geotechnical logs and Kolkata Municipal Corporation building rules; well-documented urban master plans exist for New Town / WBHIDCO areas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.1405, 25.0961]
+      },
+      "properties": {
+        "district": "Malda",
+        "typical_soil": "Alluvial (silty-clay and sand mixtures)",
+        "typical_texture": "Fine to medium",
+        "bearing_capacity_kPa_range": "90-200",
+        "bearing_capacity_min": 90,
+        "bearing_capacity_max": 200,
+        "recommended_foundation": "Spread footings; raft for low-to-mid rise; piles in organic fills",
+        "recommended_depth_m": "1.5 - 3.5",
+        "depth_min": 1.5,
+        "depth_max": 3.5,
+        "drainage_requirement": "Flood-proofing on low-lying floodplains",
+        "seismic_zone": "IV",
+        "special_constraints": "Riverine flooding and seasonal saturation; check historical flood maps",
+        "notes": "Use SLUSI / state soil maps for localized planning."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.2762, 24.1762]
+      },
+      "properties": {
+        "district": "Murshidabad",
+        "typical_soil": "Alluvial fine silts & clays (Ganges distributary plains)",
+        "typical_texture": "Fine-grained",
+        "bearing_capacity_kPa_range": "70-160",
+        "bearing_capacity_min": 70,
+        "bearing_capacity_max": 160,
+        "recommended_foundation": "Raft/pile combinations for heavy structures; ground improvement recommended",
+        "recommended_depth_m": "2.0 - 5.0",
+        "depth_min": 2.0,
+        "depth_max": 5.0,
+        "drainage_requirement": "High; flood and bank-protection measures",
+        "seismic_zone": "IV",
+        "special_constraints": "Riverbank erosion and historical flooding influence design",
+        "notes": "Prioritize drainage corridors and long-term settlement monitoring."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.556, 23.4732]
+      },
+      "properties": {
+        "district": "Nadia",
+        "typical_soil": "Alluvial (clayey silts / silty sands)",
+        "typical_texture": "Fine to medium",
+        "bearing_capacity_kPa_range": "100-220",
+        "bearing_capacity_min": 100,
+        "bearing_capacity_max": 220,
+        "recommended_foundation": "Spread footings; piles where compressible or reclaimed land found",
+        "recommended_depth_m": "1.5 - 3.5",
+        "depth_min": 1.5,
+        "depth_max": 3.5,
+        "drainage_requirement": "Subsurface drainage where high water table exists",
+        "seismic_zone": "IV",
+        "special_constraints": "Flood plains and levee-proximity zones",
+        "notes": "Coordinate with river management authorities for riverside works."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.4279, 22.6158]
+      },
+      "properties": {
+        "district": "North 24 Parganas",
+        "typical_soil": "Alluvial / estuarine with reclaimed pockets",
+        "typical_texture": "Fine to medium",
+        "bearing_capacity_kPa_range": "60-160",
+        "bearing_capacity_min": 60,
+        "bearing_capacity_max": 160,
+        "recommended_foundation": "Deep piles for urban/reclaimed areas; raft for stable pockets",
+        "recommended_depth_m": "3.0 - 6.0 (reclaimed zones)",
+        "depth_min": 3.0,
+        "depth_max": 6.0,
+        "drainage_requirement": "Subsurface drainage; coastal flood management where relevant",
+        "seismic_zone": "III",
+        "special_constraints": "Rapid urbanization, reclaimed lands, and tidal influence",
+        "notes": "OBPAS approvals required for urban localities; coordinate with development authority plans."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.4373, 22.1628]
+      },
+      "properties": {
+        "district": "South 24 Parganas",
+        "typical_soil": "Peaty / saline clay (coastal deltaic)",
+        "typical_texture": "Fine-grained, organic-rich",
+        "bearing_capacity_kPa_range": "20-80",
+        "bearing_capacity_min": 20,
+        "bearing_capacity_max": 80,
+        "recommended_foundation": "Deep pile foundations; platforming & ground improvement required",
+        "recommended_depth_m": "4.0 - 8.0",
+        "depth_min": 4.0,
+        "depth_max": 8.0,
+        "drainage_requirement": "Advanced dewatering, tidal management and coastal defenses",
+        "seismic_zone": "III",
+        "special_constraints": "Wetlands, mangroves, high corrosion & environmental sensitivity",
+        "notes": "Strict environmental clearances & long-term settlement/corrosion mitigation needed; see SLUSI coastal maps."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.0612, 23.6102]
+      },
+      "properties": {
+        "district": "Paschim Bardhaman",
+        "typical_soil": "Alluvial & industrial backfills (urbanized Asansol/ Durgapur belt)",
+        "typical_texture": "Variable (fill, clay, sand)",
+        "bearing_capacity_kPa_range": "100-300 (site dependent)",
+        "bearing_capacity_min": 100,
+        "bearing_capacity_max": 300,
+        "recommended_foundation": "Spread footings where clean native soil; piles where fill/contamination present",
+        "recommended_depth_m": "1.5 - 4.0",
+        "depth_min": 1.5,
+        "depth_max": 4.0,
+        "drainage_requirement": "Control of industrial runoff; consider contamination checks",
+        "seismic_zone": "III",
+        "special_constraints": "Post-industrial land, presence of fill — geotechnical & contamination testing recommended",
+        "notes": "Coordinate with local industrial development authorities for remediation and reuse."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.8615, 23.2552]
+      },
+      "properties": {
+        "district": "Purba Bardhaman",
+        "typical_soil": "Alluvial plain & riverine soils",
+        "typical_texture": "Silty-clay / loam",
+        "bearing_capacity_kPa_range": "110-240",
+        "bearing_capacity_min": 110,
+        "bearing_capacity_max": 240,
+        "recommended_foundation": "Spread footings or raft for clusters; piles for heavy infrastructure",
+        "recommended_depth_m": "1.5 - 3.5",
+        "depth_min": 1.5,
+        "depth_max": 3.5,
+        "drainage_requirement": "Monsoon runoff management; levee adjacent structures need scour checks",
+        "seismic_zone": "III",
+        "special_constraints": "Agricultural reclaimed pockets",
+        "notes": "Use district soil maps for zoning of heavy infrastructure."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.8345, 21.9497]
+      },
+      "properties": {
+        "district": "Purba Medinipur",
+        "typical_soil": "Coastal alluvium and sandy-clayey mixes",
+        "typical_texture": "Fine to medium",
+        "bearing_capacity_kPa_range": "60-160",
+        "bearing_capacity_min": 60,
+        "bearing_capacity_max": 160,
+        "recommended_foundation": "Piles for coastal/high water-table zones; shallow footings inland",
+        "recommended_depth_m": "2.5 - 6.0",
+        "depth_min": 2.5,
+        "depth_max": 6.0,
+        "drainage_requirement": "Coastal protection and dewatering systems",
+        "seismic_zone": "III",
+        "special_constraints": "Salt attack potential on concrete & steel; coastal regulations",
+        "notes": "Salt-resistant materials and protective coatings recommended."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.321, 22.4293]
+      },
+      "properties": {
+        "district": "Paschim Medinipur",
+        "typical_soil": "Alluvial plains, red lateritic pockets inland",
+        "typical_texture": "Varied (silty/clay/lateritic)",
+        "bearing_capacity_kPa_range": "100-260",
+        "bearing_capacity_min": 100,
+        "bearing_capacity_max": 260,
+        "recommended_foundation": "Spread footings generally viable; piles where soft alluvium present",
+        "recommended_depth_m": "1.5 - 4.0",
+        "depth_min": 1.5,
+        "depth_max": 4.0,
+        "drainage_requirement": "Surface runoff and riverbank protection in parts",
+        "seismic_zone": "III",
+        "special_constraints": "Variable sub-surface materials; check for lateritic benches",
+        "notes": "Site-by-site geotech essential for major structures."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.3645, 23.3324]
+      },
+      "properties": {
+        "district": "Purulia",
+        "typical_soil": "Lateritic / residual rocky soils",
+        "typical_texture": "Coarse / stony in places",
+        "bearing_capacity_kPa_range": "200-400",
+        "bearing_capacity_min": 200,
+        "bearing_capacity_max": 400,
+        "recommended_foundation": "Shallow spread footings commonly suitable; rock anchors where needed",
+        "recommended_depth_m": "0.8 - 2.0",
+        "depth_min": 0.8,
+        "depth_max": 2.0,
+        "drainage_requirement": "Erosion control and monsoon drainage",
+        "seismic_zone": "III",
+        "special_constraints": "Scarcity of groundwater in parts; check for expansive pockets",
+        "notes": "Good bearing capacity on rock; variable over weathered profiles."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.1197, 25.6298]
+      },
+      "properties": {
+        "district": "Uttar Dinajpur",
+        "typical_soil": "Alluvial plain with sandy-silt",
+        "typical_texture": "Fine to medium",
+        "bearing_capacity_kPa_range": "110-230",
+        "bearing_capacity_min": 110,
+        "bearing_capacity_max": 230,
+        "recommended_foundation": "Spread footings for low-rise; piles for heavy loads or soft pockets",
+        "recommended_depth_m": "1.5 - 3.5",
+        "depth_min": 1.5,
+        "depth_max": 3.5,
+        "drainage_requirement": "Monsoon drainage and flood-mapping checks",
+        "seismic_zone": "IV",
+        "special_constraints": "Flood-prone strips near river channels",
+        "notes": "Local hydrology mapping recommended for site placement."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.7505, 22.4501]
+      },
+      "properties": {
+        "district": "Jhargram",
+        "typical_soil": "Red lateritic soils with alluvial patches",
+        "typical_texture": "Sandy-clayey / gritty",
+        "bearing_capacity_kPa_range": "130-300",
+        "bearing_capacity_min": 130,
+        "bearing_capacity_max": 300,
+        "recommended_foundation": "Spread footings; raft for soft spots",
+        "recommended_depth_m": "1.0 - 2.5",
+        "depth_min": 1.0,
+        "depth_max": 2.5,
+        "drainage_requirement": "Surface runoff control; slope protection in undulating areas",
+        "seismic_zone": "III",
+        "special_constraints": "Erosion & gullies in undulating terrain",
+        "notes": "Local test pits often adequate for small structures."
+      }
+    }
+  ]
+}

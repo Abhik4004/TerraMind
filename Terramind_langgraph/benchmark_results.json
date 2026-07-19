@@ -1,0 +1,109 @@
+{
+  "concurrency": [
+    {
+      "concurrency": 1,
+      "success_rate_pct": 100.0,
+      "avg_overhead_ms": 33426.0,
+      "n_queries": 1
+    },
+    {
+      "concurrency": 2,
+      "success_rate_pct": 100.0,
+      "avg_overhead_ms": 48133.4,
+      "n_queries": 2
+    },
+    {
+      "concurrency": 4,
+      "success_rate_pct": 100.0,
+      "avg_overhead_ms": 60614.2,
+      "n_queries": 4
+    }
+  ],
+  "fault_rate": [
+    {
+      "fault_rate_pct": 0,
+      "success_rate_pct": 100.0,
+      "baseline_success_rate_pct": 100.0,
+      "n_queries": 4000,
+      "method": "monte_carlo_control_flow_sim"
+    },
+    {
+      "fault_rate_pct": 10,
+      "success_rate_pct": 97.3,
+      "baseline_success_rate_pct": 90.8,
+      "n_queries": 4000,
+      "method": "monte_carlo_control_flow_sim"
+    },
+    {
+      "fault_rate_pct": 20,
+      "success_rate_pct": 94.0,
+      "baseline_success_rate_pct": 79.5,
+      "n_queries": 4000,
+      "method": "monte_carlo_control_flow_sim"
+    },
+    {
+      "fault_rate_pct": 30,
+      "success_rate_pct": 91.8,
+      "baseline_success_rate_pct": 69.4,
+      "n_queries": 4000,
+      "method": "monte_carlo_control_flow_sim"
+    },
+    {
+      "fault_rate_pct": 40,
+      "success_rate_pct": 89.0,
+      "baseline_success_rate_pct": 61.1,
+      "n_queries": 4000,
+      "method": "monte_carlo_control_flow_sim"
+    },
+    {
+      "fault_rate_pct": 50,
+      "success_rate_pct": 84.4,
+      "baseline_success_rate_pct": 48.9,
+      "n_queries": 4000,
+      "method": "monte_carlo_control_flow_sim"
+    },
+    {
+      "fault_rate_pct": 60,
+      "success_rate_pct": 81.5,
+      "baseline_success_rate_pct": 39.3,
+      "n_queries": 4000,
+      "method": "monte_carlo_control_flow_sim"
+    }
+  ],
+  "workload": [
+    {
+      "workload": 2,
+      "success_rate_pct": 100.0,
+      "total_overhead_ms": 64102.2,
+      "llm_inference_ms": 39743.4,
+      "cache_tool_io_ms": 24358.8,
+      "wall_time_ms": 91541.8,
+      "n_queries": 2
+    },
+    {
+      "workload": 4,
+      "success_rate_pct": 100.0,
+      "total_overhead_ms": 59874.1,
+      "llm_inference_ms": 37121.9,
+      "cache_tool_io_ms": 22752.2,
+      "wall_time_ms": 100917.6,
+      "n_queries": 4
+    },
+    {
+      "workload": 8,
+      "success_rate_pct": 100.0,
+      "total_overhead_ms": 67517.9,
+      "llm_inference_ms": 41861.1,
+      "cache_tool_io_ms": 25656.8,
+      "wall_time_ms": 151064.5,
+      "n_queries": 8
+    }
+  ],
+  "cache_stats": {
+    "response_cache": 2,
+    "embedding_cache": 5,
+    "tool_cache": 1,
+    "total_size_mb": 0.04506397247314453,
+    "total_entries": 8
+  }
+}

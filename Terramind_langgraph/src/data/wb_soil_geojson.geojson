@@ -1,0 +1,547 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "West Bengal Soils - Regional Classification",
+    "source": "West Bengal Soil Map Sheet 1",
+    "scale": "1:500,000",
+    "coordinate_system": "WGS84",
+    "description": "Soil classification data for West Bengal extracted from official soil survey maps with taxonomic classifications"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Darjeeling Hills - High Altitude",
+        "soil_code": "WB1",
+        "soil_name": "Hill soils, Brown forest soils",
+        "taxonomic_order": "Inceptisols",
+        "taxonomic_suborder": "Ochrepts",
+        "usda_classification": "Dystric Eutrochrepts",
+        "fao_classification": "Cambisols",
+        "texture": "Loamy, Sandy loam",
+        "drainage": "Well drained",
+        "parent_material": "Quartzite debris, Phyllite, Schist",
+        "elevation": "High altitude (>1500m)",
+        "ph_range": "4.5-6.0 (Acidic)",
+        "organic_matter": "High",
+        "land_use": "Forest, Tea gardens, Horticulture",
+        "districts": ["Darjeeling", "Kalimpong"],
+        "description": "Fine and coilt shaped (Brown forest soils), podzolic soils, dark colored, loam; low base exchange; strongly acidic; relatively high organic matter and nitrogen content; suited to perennial tree crops"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.0, 27.0], [88.5, 27.0], [88.5, 26.5], [88.0, 26.5], [88.0, 27.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Terai Zone - Piedmont Plain",
+        "soil_code": "WB2",
+        "soil_name": "Grey alluvial soils (Apj-Duar soils)",
+        "taxonomic_order": "Inceptisols",
+        "taxonomic_suborder": "Aquepts",
+        "usda_classification": "Typic Endoaquepts",
+        "fao_classification": "Gleysols",
+        "texture": "Sandy loam to clay loam",
+        "drainage": "Moderately well drained to imperfectly drained",
+        "parent_material": "Recent alluvium",
+        "elevation": "Low plains (100-300m)",
+        "ph_range": "5.5-6.5 (Moderately acidic)",
+        "organic_matter": "Medium to high",
+        "land_use": "Agriculture, Tea gardens, Rice cultivation",
+        "districts": ["Jalpaiguri", "Alipurduar", "Cooch Behar"],
+        "description": "Grey alluvial soils, slightly acidic; fairly high in organic content with moderate base exchange; seasonally wet; suited for tea and rice"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.5, 26.8], [89.5, 26.8], [89.5, 26.2], [88.5, 26.2], [88.5, 26.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "North Bengal Plains",
+        "soil_code": "WB11",
+        "soil_name": "Red-yellow soils (old alluvial)",
+        "taxonomic_order": "Alfisols",
+        "taxonomic_suborder": "Udalfs",
+        "usda_classification": "Typic Hapludalfs",
+        "fao_classification": "Luvisols",
+        "texture": "Clay loam to sandy clay loam",
+        "drainage": "Well drained",
+        "parent_material": "Old alluvium",
+        "elevation": "Plains (20-100m)",
+        "ph_range": "5.0-6.5 (Strongly acidic to moderately acidic)",
+        "organic_matter": "Low to medium",
+        "erosion": "Moderate",
+        "land_use": "Agriculture - Rice, Jute, Vegetables, Mango",
+        "districts": ["Malda", "North Dinajpur", "South Dinajpur"],
+        "description": "Red-yellow soils (old alluvial), acidic; moderate organic content; low in lime; suited for cereals, pulses and oilseeds with proper fertilization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[87.5, 25.5], [88.5, 25.5], [88.5, 24.8], [87.5, 24.8], [87.5, 25.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Murshidabad-Nadia Plains",
+        "soil_code": "WB5",
+        "soil_name": "New alluvial soils (recent Gangetic)",
+        "taxonomic_order": "Entisols",
+        "taxonomic_suborder": "Fluvents",
+        "usda_classification": "Typic Ustifluvents",
+        "fao_classification": "Fluvisols",
+        "texture": "Silt loam to silty clay loam",
+        "drainage": "Moderately well drained",
+        "parent_material": "Recent river alluvium (Ganga-Bhagirathi)",
+        "elevation": "Low plains (10-30m)",
+        "ph_range": "6.5-7.5 (Neutral)",
+        "organic_matter": "Medium",
+        "flooding": "Subject to periodic flooding",
+        "land_use": "Intensive agriculture - Rice, Jute, Vegetables",
+        "districts": ["Murshidabad", "Nadia"],
+        "description": "New alluvial soils; neutral to slightly alkaline; high fertility; well supplied with bases; suited for rice, jute and vegetables"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.0, 24.5], [88.8, 24.5], [88.8, 23.5], [88.0, 23.5], [88.0, 24.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bardhaman Plains",
+        "soil_code": "WB7",
+        "soil_name": "Mixed alluvial soils (Gangetic)",
+        "taxonomic_order": "Inceptisols",
+        "taxonomic_suborder": "Aquepts",
+        "usda_classification": "Aeric Endoaquepts",
+        "fao_classification": "Gleysols",
+        "texture": "Silty clay to clay",
+        "drainage": "Imperfectly to poorly drained",
+        "parent_material": "Mixed alluvium (old and new)",
+        "elevation": "Low plains (10-50m)",
+        "ph_range": "6.0-7.0 (Slightly acidic to neutral)",
+        "organic_matter": "Medium",
+        "flooding": "Seasonal flooding",
+        "land_use": "Rice cultivation, Vegetables",
+        "districts": ["Bardhaman", "Hooghly"],
+        "description": "Mixed alluvial soils; imperfectly drained; moderate fertility; suited for rice in wet season"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[87.5, 23.8], [88.2, 23.8], [88.2, 22.8], [87.5, 22.8], [87.5, 23.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Rarh Bengal - Lateritic Belt",
+        "soil_code": "WB17",
+        "soil_name": "Red lateritic soils",
+        "taxonomic_order": "Ultisols",
+        "taxonomic_suborder": "Ustults",
+        "usda_classification": "Typic Paleustults",
+        "fao_classification": "Acrisols",
+        "texture": "Sandy loam to clay",
+        "drainage": "Well to excessively drained",
+        "parent_material": "Laterite, Weathered rocks",
+        "elevation": "Uplands (50-300m)",
+        "ph_range": "4.5-5.5 (Strongly acidic)",
+        "organic_matter": "Low",
+        "erosion": "Moderate to severe",
+        "salinity": "Non-saline",
+        "land_use": "Rainfed agriculture, Rice, Pulses, Oilseeds",
+        "districts": ["Purulia", "Bankura", "West Midnapore"],
+        "description": "Red lateritic soils; highly acidic; low in fertility, organic matter and nutrients; prone to erosion; suited for rainfed crops with soil amendments"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[86.0, 23.8], [87.5, 23.8], [87.5, 22.0], [86.0, 22.0], [86.0, 23.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Birbhum Plateau",
+        "soil_code": "WB18",
+        "soil_name": "Red-yellow mixed soils",
+        "taxonomic_order": "Alfisols",
+        "taxonomic_suborder": "Ustalfs",
+        "usda_classification": "Typic Haplustalfs",
+        "fao_classification": "Lixisols",
+        "texture": "Sandy loam to sandy clay loam",
+        "drainage": "Well drained",
+        "parent_material": "Old alluvium with lateritic influence",
+        "elevation": "Undulating plains (50-200m)",
+        "ph_range": "5.0-6.0 (Strongly acidic)",
+        "organic_matter": "Low",
+        "erosion": "Moderate",
+        "land_use": "Rainfed crops, Rice, Pulses",
+        "districts": ["Birbhum"],
+        "description": "Red-yellow mixed soils; acidic; low fertility; drought-prone; requires irrigation and fertilization"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[87.5, 24.5], [88.0, 24.5], [88.0, 23.5], [87.5, 23.5], [87.5, 24.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Kolkata Metropolitan - Lower Gangetic",
+        "soil_code": "WB8",
+        "soil_name": "Recent alluvial soils (deltaic)",
+        "taxonomic_order": "Entisols",
+        "taxonomic_suborder": "Fluvents",
+        "usda_classification": "Typic Endoaquents",
+        "fao_classification": "Fluvisols",
+        "texture": "Silty clay to clay",
+        "drainage": "Poorly drained",
+        "parent_material": "Hooghly river alluvium",
+        "elevation": "Very low plains (0-10m)",
+        "ph_range": "6.5-7.5 (Neutral)",
+        "organic_matter": "Medium to high",
+        "flooding": "Monsoon flooding, tidal influence",
+        "land_use": "Urban, Agriculture - Rice, Vegetables",
+        "districts": ["Kolkata", "North 24 Parganas", "Howrah"],
+        "description": "Recent alluvial soils; neutral pH; high fertility; poorly drained; suited for rice cultivation; urban encroachment"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.2, 22.8], [88.5, 22.8], [88.5, 22.3], [88.2, 22.3], [88.2, 22.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Sundarbans Delta - Mangrove Zone",
+        "soil_code": "WB20",
+        "soil_name": "Saline coastal alluvium",
+        "taxonomic_order": "Entisols",
+        "taxonomic_suborder": "Aquents",
+        "usda_classification": "Typic Sulfaquents",
+        "fao_classification": "Gleysols (Salic)",
+        "texture": "Silty clay to clay",
+        "drainage": "Very poorly drained",
+        "parent_material": "Marine and estuarine deposits",
+        "elevation": "Coastal lowlands (0-5m)",
+        "ph_range": "7.0-8.5 (Neutral to alkaline)",
+        "organic_matter": "High in mangrove areas",
+        "salinity": "Moderate to severe (4-15 dS/m)",
+        "flooding": "Daily tidal flooding",
+        "land_use": "Mangrove forests, Limited agriculture, Aquaculture",
+        "districts": ["South 24 Parganas"],
+        "description": "Saline coastal soils; high salinity; poorly drained; tidal influence; acid sulfate soils; suited for mangrove vegetation and brackish water aquaculture"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.0, 22.5], [89.0, 22.5], [89.0, 21.6], [88.0, 21.6], [88.0, 22.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "East Midnapore Coastal",
+        "soil_code": "WB21",
+        "soil_name": "Coastal alluvial soils (non-saline to slightly saline)",
+        "taxonomic_order": "Entisols",
+        "taxonomic_suborder": "Psamments",
+        "usda_classification": "Typic Ustipsamments",
+        "fao_classification": "Arenosols",
+        "texture": "Sandy to sandy loam",
+        "drainage": "Moderately well to well drained",
+        "parent_material": "Marine deposits, Coastal sand",
+        "elevation": "Coastal plains (0-20m)",
+        "ph_range": "6.5-7.5 (Neutral)",
+        "organic_matter": "Low",
+        "salinity": "Slight to moderate (2-4 dS/m)",
+        "land_use": "Agriculture, Fisheries, Casuarina plantations",
+        "districts": ["East Midnapore"],
+        "description": "Coastal alluvial soils; sandy texture; low water holding capacity; slight salinity; suited for cashew, casuarina and salt-tolerant crops"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[87.5, 22.2], [88.2, 22.2], [88.2, 21.5], [87.5, 21.5], [87.5, 22.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "West Midnapore Plains",
+        "soil_code": "WB19",
+        "soil_name": "Red-yellow mixed alluvial soils",
+        "taxonomic_order": "Alfisols",
+        "taxonomic_suborder": "Udalfs",
+        "usda_classification": "Aquic Hapludalfs",
+        "fao_classification": "Luvisols",
+        "texture": "Clay loam to clay",
+        "drainage": "Moderately well drained",
+        "parent_material": "Old alluvium with lateritic patches",
+        "elevation": "Plains to undulating (20-100m)",
+        "ph_range": "5.5-6.5 (Moderately acidic)",
+        "organic_matter": "Medium",
+        "land_use": "Rice, Vegetables, Oilseeds",
+        "districts": ["West Midnapore", "Jhargram"],
+        "description": "Red-yellow mixed soils; moderate fertility; transitional between lateritic and alluvial; suited for diverse crops with proper management"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[87.0, 22.8], [88.0, 22.8], [88.0, 22.0], [87.0, 22.0], [87.0, 22.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "North Dinajpur-Malda Border",
+        "soil_code": "WB12",
+        "soil_name": "Grey-brown alluvial soils",
+        "taxonomic_order": "Inceptisols",
+        "taxonomic_suborder": "Ustepts",
+        "usda_classification": "Typic Haplustepts",
+        "fao_classification": "Cambisols",
+        "texture": "Loam to clay loam",
+        "drainage": "Well drained",
+        "parent_material": "Old alluvium",
+        "elevation": "Plains (20-50m)",
+        "ph_range": "6.0-7.0 (Slightly acidic to neutral)",
+        "organic_matter": "Medium",
+        "land_use": "Rice, Maize, Jute, Mango orchards",
+        "districts": ["Malda", "North Dinajpur"],
+        "description": "Grey-brown alluvial soils; moderate fertility; suited for diverse crops including mango cultivation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[88.0, 25.5], [88.5, 25.5], [88.5, 25.0], [88.0, 25.0], [88.0, 25.5]]]
+      }
+    }
+  ],
+  "soil_taxonomy_reference": {
+    "USDA_orders": {
+      "Entisols": "Recently formed soils with little profile development",
+      "Inceptisols": "Young soils with weakly developed horizons",
+      "Alfisols": "Moderately leached soils with clay accumulation",
+      "Ultisols": "Highly weathered, acidic soils with clay accumulation",
+      "Histosols": "Organic soils (peat, muck)"
+    },
+    "FAO_classification": {
+      "Fluvisols": "Soils developed in recent alluvial deposits",
+      "Gleysols": "Waterlogged soils with reducing conditions",
+      "Cambisols": "Weakly to moderately developed soils",
+      "Luvisols": "Soils with clay accumulation in B horizon",
+      "Acrisols": "Strongly acidic, weathered soils",
+      "Arenosols": "Sandy soils with weak development"
+    }
+  },
+  "soil_legend_detailed": {
+    "WB1": {
+      "color": "#FF6B9D",
+      "name": "Hill soils - Brown forest",
+      "taxonomy": "Inceptisols (Dystric Eutrochrepts)",
+      "area_ha": "~150000"
+    },
+    "WB2": {
+      "color": "#90EE90",
+      "name": "Grey alluvial (Terai-Duar)",
+      "taxonomy": "Inceptisols (Typic Endoaquepts)",
+      "area_ha": "~400000"
+    },
+    "WB5": {
+      "color": "#ADFF2F",
+      "name": "New alluvial (Recent Gangetic)",
+      "taxonomy": "Entisols (Typic Ustifluvents)",
+      "area_ha": "~800000"
+    },
+    "WB7": {
+      "color": "#98FB98",
+      "name": "Mixed alluvial",
+      "taxonomy": "Inceptisols (Aeric Endoaquepts)",
+      "area_ha": "~500000"
+    },
+    "WB8": {
+      "color": "#90EE90",
+      "name": "Recent deltaic alluvium",
+      "taxonomy": "Entisols (Typic Endoaquents)",
+      "area_ha": "~300000"
+    },
+    "WB11": {
+      "color": "#FFD700",
+      "name": "Red-yellow old alluvial",
+      "taxonomy": "Alfisols (Typic Hapludalfs)",
+      "area_ha": "~350000"
+    },
+    "WB12": {
+      "color": "#F0E68C",
+      "name": "Grey-brown alluvial",
+      "taxonomy": "Inceptisols (Typic Haplustepts)",
+      "area_ha": "~200000"
+    },
+    "WB17": {
+      "color": "#CD853F",
+      "name": "Red lateritic",
+      "taxonomy": "Ultisols (Typic Paleustults)",
+      "area_ha": "~600000"
+    },
+    "WB18": {
+      "color": "#DAA520",
+      "name": "Red-yellow mixed",
+      "taxonomy": "Alfisols (Typic Haplustalfs)",
+      "area_ha": "~250000"
+    },
+    "WB19": {
+      "color": "#D2691E",
+      "name": "Red-yellow mixed alluvial",
+      "taxonomy": "Alfisols (Aquic Hapludalfs)",
+      "area_ha": "~300000"
+    },
+    "WB20": {
+      "color": "#E6E6FA",
+      "name": "Saline coastal (Sundarbans)",
+      "taxonomy": "Entisols (Typic Sulfaquents)",
+      "area_ha": "~400000"
+    },
+    "WB21": {
+      "color": "#F5DEB3",
+      "name": "Coastal sandy",
+      "taxonomy": "Entisols (Typic Ustipsamments)",
+      "area_ha": "~150000"
+    }
+  },
+  "district_soil_matrix": [
+    {
+      "district": "Darjeeling",
+      "soil_codes": ["WB1"],
+      "dominant_taxonomy": "Inceptisols",
+      "area_km2": 3149
+    },
+    {
+      "district": "Kalimpong",
+      "soil_codes": ["WB1"],
+      "dominant_taxonomy": "Inceptisols",
+      "area_km2": 1056
+    },
+    {
+      "district": "Jalpaiguri",
+      "soil_codes": ["WB2"],
+      "dominant_taxonomy": "Inceptisols",
+      "area_km2": 6227
+    },
+    {
+      "district": "Alipurduar",
+      "soil_codes": ["WB2"],
+      "dominant_taxonomy": "Inceptisols",
+      "area_km2": 3383
+    },
+    {
+      "district": "Cooch Behar",
+      "soil_codes": ["WB2"],
+      "dominant_taxonomy": "Inceptisols",
+      "area_km2": 3387
+    },
+    {
+      "district": "Malda",
+      "soil_codes": ["WB11", "WB12"],
+      "dominant_taxonomy": "Alfisols/Inceptisols",
+      "area_km2": 3733
+    },
+    {
+      "district": "North Dinajpur",
+      "soil_codes": ["WB11", "WB12"],
+      "dominant_taxonomy": "Alfisols",
+      "area_km2": 3140
+    },
+    {
+      "district": "South Dinajpur",
+      "soil_codes": ["WB11"],
+      "dominant_taxonomy": "Alfisols",
+      "area_km2": 2219
+    },
+    {
+      "district": "Murshidabad",
+      "soil_codes": ["WB5", "WB7"],
+      "dominant_taxonomy": "Entisols/Inceptisols",
+      "area_km2": 5324
+    },
+    {
+      "district": "Nadia",
+      "soil_codes": ["WB5", "WB7"],
+      "dominant_taxonomy": "Entisols/Inceptisols",
+      "area_km2": 3927
+    },
+    {
+      "district": "Bardhaman",
+      "soil_codes": ["WB7", "WB19"],
+      "dominant_taxonomy": "Inceptisols",
+      "area_km2": 7024
+    },
+    {
+      "district": "Birbhum",
+      "soil_codes": ["WB18"],
+      "dominant_taxonomy": "Alfisols",
+      "area_km2": 4545
+    },
+    {
+      "district": "Bankura",
+      "soil_codes": ["WB17"],
+      "dominant_taxonomy": "Ultisols",
+      "area_km2": 6882
+    },
+    {
+      "district": "Purulia",
+      "soil_codes": ["WB17"],
+      "dominant_taxonomy": "Ultisols",
+      "area_km2": 6259
+    },
+    {
+      "district": "West Midnapore",
+      "soil_codes": ["WB17", "WB19"],
+      "dominant_taxonomy": "Ultisols/Alfisols",
+      "area_km2": 9345
+    },
+    {
+      "district": "Jhargram",
+      "soil_codes": ["WB17", "WB19"],
+      "dominant_taxonomy": "Ultisols",
+      "area_km2": 3037
+    },
+    {
+      "district": "East Midnapore",
+      "soil_codes": ["WB19", "WB21"],
+      "dominant_taxonomy": "Alfisols/Entisols",
+      "area_km2": 4736
+    },
+    {
+      "district": "Hooghly",
+      "soil_codes": ["WB7", "WB8"],
+      "dominant_taxonomy": "Inceptisols",
+      "area_km2": 3149
+    },
+    {
+      "district": "Howrah",
+      "soil_codes": ["WB8"],
+      "dominant_taxonomy": "Entisols",
+      "area_km2": 1467
+    },
+    {
+      "district": "Kolkata",
+      "soil_codes": ["WB8"],
+      "dominant_taxonomy": "Entisols",
+      "area_km2": 185
+    },
+    {
+      "district": "North 24 Parganas",
+      "soil_codes": ["WB8", "WB20"],
+      "dominant_taxonomy": "Entisols",
+      "area_km2": 4094
+    },
+    {
+      "district": "South 24 Parganas",
+      "soil_codes": ["WB20"],
+      "dominant_taxonomy": "Entisols (Saline)",
+      "area_km2": 9960
+    }
+  ]
+}

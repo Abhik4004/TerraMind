@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.71056666666667, 22.20086388888889]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.15357743039181412,
+        "earthquake_category": "High Risk",
+        "heat_stress": "Moderate",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Moderate",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.6688, 22.31255]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.14859056425808742,
+        "earthquake_category": "Moderate Risk",
+        "heat_stress": "Moderate",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Low",
+        "flood_risk": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.84064166666666, 22.130697222222224]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.1595773023549322,
+        "earthquake_category": "High Risk",
+        "heat_stress": "Moderate",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Low",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.82316666666667, 22.165983333333333]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.1614633363744878,
+        "earthquake_category": "High Risk",
+        "heat_stress": "Moderate",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Low",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.67960555555555, 22.606047222222223]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.139825,
+        "earthquake_category": "Moderate Risk",
+        "heat_stress": "Low",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Low",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.97325555555555, 22.482333333333333]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.16918219985162966,
+        "earthquake_category": "High Risk",
+        "heat_stress": "Low",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Moderate",
+        "flood_risk": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.68716944444445, 22.02946111111111]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.14861889999996478,
+        "earthquake_category": "Moderate Risk",
+        "heat_stress": "Moderate",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Moderate",
+        "flood_risk": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.18433888888889, 21.86841666666667]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.12642540008067102,
+        "earthquake_category": "Moderate Risk",
+        "heat_stress": "Low",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Moderate",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.56330833333332, 22.036752777777778]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.1413183403738164,
+        "earthquake_category": "Moderate Risk",
+        "heat_stress": "Moderate",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Moderate",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.71269166666667, 22.513808333333333]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.14917269999997665,
+        "earthquake_category": "Moderate Risk",
+        "heat_stress": "Low",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Low",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.37187222222222, 21.7984]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.1320741234690051,
+        "earthquake_category": "Moderate Risk",
+        "heat_stress": "Low",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Low",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.83, 22.12388888888889]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.1595773023549322,
+        "earthquake_category": "High Risk",
+        "heat_stress": "Moderate",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Low",
+        "flood_risk": "Moderate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.8216361111111, 22.433711111111112]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.15687681348811142,
+        "earthquake_category": "High Risk",
+        "heat_stress": "Low",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Moderate",
+        "flood_risk": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.88114444444444, 22.338727777777777]
+      },
+      "properties": {
+        "name": "Unknown",
+        "earthquake_intensity": 0.164850048239129,
+        "earthquake_category": "High Risk",
+        "heat_stress": "Low",
+        "humidity_discomfort": "Moderate",
+        "wind_risk": "Moderate",
+        "flood_risk": "Moderate"
+      }
+    }
+  ]
+}

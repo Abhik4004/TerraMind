@@ -1,0 +1,161 @@
+/* src/index.css */
+
+/* ── CSS custom properties (light theme defaults) ─────────────────────────── */
+:root {
+  --primary: #2563eb;
+  --secondary: #10b981;
+  --dark: #1e293b;
+  --light: #f9fafb;
+  --text: #334155;
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Surface / background tokens */
+  --bg:          #f9fafb;
+  --surface:     #ffffff;
+  --surface-2:   #f1f5f9;
+  --text-primary: #334155;
+  --text-muted:   #64748b;
+  --border:      #e2e8f0;
+
+  /* GIS green accent tokens */
+  --geo-dark:   #1b5e20;
+  --geo-mid:    #2e7d32;
+  --geo-light:  #e8f5e9;
+  --geo-border: #a5d6a7;
+}
+
+/* ── Dark theme overrides ─────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  --bg:          #0f172a;
+  --surface:     #1e293b;
+  --surface-2:   #334155;
+  --text-primary: #f1f5f9;
+  --text-muted:   #94a3b8;
+  --border:      #475569;
+  --shadow:      0 4px 12px rgba(0, 0, 0, 0.4);
+  --light:       #0f172a;
+  --text:        #f1f5f9;
+
+  --geo-dark:   #4caf50;
+  --geo-mid:    #66bb6a;
+  --geo-light:  #1a2e1a;
+  --geo-border: #388e3c;
+}
+
+/* ── Reset ────────────────────────────────────────────────────────────────── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  transition: background 0.2s, color 0.2s;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: inherit;
+}
+a:hover { color: #1d4ed8; }
+
+button {
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+button:hover { background-color: #1d4ed8; }
+button:focus,
+button:focus-visible { outline: 4px auto var(--primary); }
+
+/* ── LandAnalyze layout classes (used for media queries) ─────────────────── */
+.tm-main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.tm-map-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-right: 1px solid var(--geo-border);
+  background: var(--surface);
+}
+
+.tm-chat-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: var(--surface);
+}
+
+.tm-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.625rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ── Mobile responsive ────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  body { font-size: 14px; }
+  button { padding: 0.5em 1em; }
+
+  .tm-main {
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  .tm-map-section {
+    height: 45vh;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    flex: none;
+  }
+
+  .tm-chat-section {
+    height: 55vh;
+    flex: none;
+  }
+
+  .tm-toolbar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+  }
+
+  /* Mapbox geocoder width fix on small screens */
+  .mapboxgl-ctrl-geocoder {
+    max-width: calc(100vw - 120px) !important;
+    min-width: 0 !important;
+  }
+  .mapboxgl-ctrl-geocoder--input {
+    font-size: 14px;
+  }
+}

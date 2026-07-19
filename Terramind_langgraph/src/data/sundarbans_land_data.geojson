@@ -1,0 +1,320 @@
+{
+    "type": "FeatureCollection",
+    "name": "sundarbans_land_data",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 42' 38.04'' N, 22\u00c2\u00b0 12' 3.11'' E",
+                "land type": "Builtup",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Low Productive",
+                "soil erosion": "Severe",
+                "soil texture": "Rocky and non soil",
+                "soil depth": "Shallow",
+                "latitude": 22.20086388888889,
+                "longitude": 88.71056666666667
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.71056666666667,
+                    22.20086388888889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 40' 7.68'' N, 22\u00c2\u00b0 18' 45.18'' E",
+                "land type": "Builtup",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.31255,
+                "longitude": 88.6688
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.6688,
+                    22.31255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 50' 26.31'' N, 22\u00c2\u00b0 7' 50.51'' E",
+                "land type": "Builtup",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.130697222222224,
+                "longitude": 88.84064166666666
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.84064166666666,
+                    22.130697222222224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 49' 23.40'' N, 22\u00c2\u00b0 9' 57.54'' E",
+                "land type": "Builtup",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.165983333333333,
+                "longitude": 88.82316666666667
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.82316666666667,
+                    22.165983333333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 40' 46.58'' N, 22\u00c2\u00b0 36' 21.77'' E",
+                "land type": "Builtup",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Medium texture",
+                "soil depth": "Deep",
+                "latitude": 22.606047222222223,
+                "longitude": 88.67960555555555
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.67960555555555,
+                    22.606047222222223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 58' 23.72'' N, 22\u00c2\u00b0 28' 56.40'' E",
+                "land type": "Builtup",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.482333333333333,
+                "longitude": 88.97325555555555
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.97325555555555,
+                    22.482333333333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 41' 13.81'' N, 22\u00c2\u00b0 1' 46.06'' E",
+                "land type": "Forest",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Medium texture",
+                "soil depth": "Deep",
+                "latitude": 22.02946111111111,
+                "longitude": 88.68716944444445
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.68716944444445,
+                    22.02946111111111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 11' 3.62'' N, 21\u00c2\u00b0 52' 6.30'' E",
+                "land type": "Builtup",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 21.86841666666667,
+                "longitude": 88.18433888888889
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.18433888888889,
+                    21.86841666666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 33' 47.91'' N, 22\u00c2\u00b0 2' 12.31'' E",
+                "land type": "Builtup",
+                "geomorphology": "Anthropogenic Origin",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.036752777777778,
+                "longitude": 88.56330833333332
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.56330833333332,
+                    22.036752777777778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 42' 45.69'' N, 22\u00c2\u00b0 30' 49.71'' E",
+                "land type": "Waterbodies",
+                "geomorphology": "Anthropogenic Origin",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.513808333333333,
+                "longitude": 88.71269166666667
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.71269166666667,
+                    22.513808333333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 22' 18.74'' N, 21\u00c2\u00b0 47' 54.24'' E",
+                "land type": "Agriculture",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Low Productive",
+                "soil erosion": "Severe",
+                "soil texture": "Rocky and non soil",
+                "soil depth": "Shallow",
+                "latitude": 21.7984,
+                "longitude": 88.37187222222222
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.37187222222222,
+                    21.7984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 49' 48.00'' N, 22\u00c2\u00b0 7' 26.00'' E",
+                "land type": "Forest",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.12388888888889,
+                "longitude": 88.83
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.83,
+                    22.12388888888889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 49' 17.89'' N, 22\u00c2\u00b0 26' 1.36'' E",
+                "land type": "Waterbodies",
+                "geomorphology": "Anthropogenic Origin",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.433711111111112,
+                "longitude": 88.8216361111111
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.8216361111111,
+                    22.433711111111112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "location": "88\u00c2\u00b0 52' 52.12'' N, 22\u00c2\u00b0 20' 19.42'' E",
+                "land type": "Agriculture",
+                "geomorphology": "Deltaic Plain",
+                "land degradation": "Nil",
+                "soil productivity": "Highly Productive",
+                "soil erosion": "Slight",
+                "soil texture": "Fine Texture",
+                "soil depth": "Deep",
+                "latitude": 22.338727777777777,
+                "longitude": 88.88114444444444
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.88114444444444,
+                    22.338727777777777
+                ]
+            }
+        }
+    ]
+}
