@@ -11,10 +11,6 @@ A sophisticated land analysis system built with LangGraph and Self-RAG (Retrieva
 - **Vector Store**: Uses Chroma for efficient document retrieval
 - **Iterative Refinement**: Automatically retries generation if quality checks fail
 
-## Architecture
-
-![TerraMind architecture](./workflow_diagrams/workflow_diagram.png)
-
 ## Installation
 
 1. Clone the repository
